@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1578FA3D18C9DE0B007B6CA1 /* EZImageConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1578FA3C18C9DE0B007B6CA1 /* EZImageConnection.m */; };
+		1578FA4018CD4F71007B6CA1 /* EZImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1578FA3F18CD4F71007B6CA1 /* EZImageCache.m */; };
+		1578FA4618CD6219007B6CA1 /* EZHTTPRequestUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1578FA4518CD6219007B6CA1 /* EZHTTPRequestUtils.m */; };
+		15E02F561860206B00B45992 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E02F551860206B00B45992 /* Foundation.framework */; };
+		15E02F581860206B00B45992 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E02F571860206B00B45992 /* CoreGraphics.framework */; };
+		15E02F5A1860206B00B45992 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E02F591860206B00B45992 /* UIKit.framework */; };
+		15E02F601860206B00B45992 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15E02F5E1860206B00B45992 /* InfoPlist.strings */; };
+		15E02F621860206B00B45992 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E02F611860206B00B45992 /* main.m */; };
+		15E02F661860206B00B45992 /* EZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E02F651860206B00B45992 /* EZAppDelegate.m */; };
+		15E02F681860206B00B45992 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15E02F671860206B00B45992 /* Images.xcassets */; };
+		15E02F6F1860206B00B45992 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E02F6E1860206B00B45992 /* XCTest.framework */; };
+		15E02F701860206B00B45992 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E02F551860206B00B45992 /* Foundation.framework */; };
+		15E02F711860206B00B45992 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E02F591860206B00B45992 /* UIKit.framework */; };
+		15E02F791860206B00B45992 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15E02F771860206B00B45992 /* InfoPlist.strings */; };
+		15E02F7B1860206B00B45992 /* EZHTTPRequestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E02F7A1860206B00B45992 /* EZHTTPRequestTests.m */; };
+		15E02F8F1860320900B45992 /* EZDownloadConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E02F861860320900B45992 /* EZDownloadConnection.m */; };
+		15E02F901860320900B45992 /* EZHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E02F881860320900B45992 /* EZHTTPConnection.m */; };
+		15E02F911860320900B45992 /* EZHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E02F8A1860320900B45992 /* EZHTTPRequest.m */; };
+		15E02F921860320900B45992 /* EZHTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E02F8C1860320900B45992 /* EZHTTPResponse.m */; };
+		15E02F931860320900B45992 /* NSURL+QueryStringParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E02F8E1860320900B45992 /* NSURL+QueryStringParse.m */; };
+		15E02F971860347D00B45992 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E02F961860347D00B45992 /* RootViewController.m */; };
+		15EA15B418FF6D88006C9696 /* EZJSONObjectParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EA15B318FF6D88006C9696 /* EZJSONObjectParser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15E02F721860206B00B45992 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15E02F4A1860206B00B45992 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15E02F511860206B00B45992;
+			remoteInfo = EZHTTPRequest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1578FA3B18C9DE0B007B6CA1 /* EZImageConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZImageConnection.h; sourceTree = "<group>"; };
+		1578FA3C18C9DE0B007B6CA1 /* EZImageConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZImageConnection.m; sourceTree = "<group>"; };
+		1578FA3E18CD4F71007B6CA1 /* EZImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZImageCache.h; sourceTree = "<group>"; };
+		1578FA3F18CD4F71007B6CA1 /* EZImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZImageCache.m; sourceTree = "<group>"; };
+		1578FA4418CD6219007B6CA1 /* EZHTTPRequestUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZHTTPRequestUtils.h; sourceTree = "<group>"; };
+		1578FA4518CD6219007B6CA1 /* EZHTTPRequestUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZHTTPRequestUtils.m; sourceTree = "<group>"; };
+		15E02F521860206B00B45992 /* EZHTTPRequest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZHTTPRequest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15E02F551860206B00B45992 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		15E02F571860206B00B45992 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		15E02F591860206B00B45992 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		15E02F5D1860206B00B45992 /* EZHTTPRequest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EZHTTPRequest-Info.plist"; sourceTree = "<group>"; };
+		15E02F5F1860206B00B45992 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		15E02F611860206B00B45992 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15E02F631860206B00B45992 /* EZHTTPRequest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EZHTTPRequest-Prefix.pch"; sourceTree = "<group>"; };
+		15E02F641860206B00B45992 /* EZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZAppDelegate.h; sourceTree = "<group>"; };
+		15E02F651860206B00B45992 /* EZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZAppDelegate.m; sourceTree = "<group>"; };
+		15E02F671860206B00B45992 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		15E02F6D1860206B00B45992 /* EZHTTPRequestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EZHTTPRequestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15E02F6E1860206B00B45992 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		15E02F761860206B00B45992 /* EZHTTPRequestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EZHTTPRequestTests-Info.plist"; sourceTree = "<group>"; };
+		15E02F781860206B00B45992 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		15E02F7A1860206B00B45992 /* EZHTTPRequestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZHTTPRequestTests.m; sourceTree = "<group>"; };
+		15E02F851860320900B45992 /* EZDownloadConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZDownloadConnection.h; sourceTree = "<group>"; };
+		15E02F861860320900B45992 /* EZDownloadConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZDownloadConnection.m; sourceTree = "<group>"; };
+		15E02F871860320900B45992 /* EZHTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZHTTPConnection.h; sourceTree = "<group>"; };
+		15E02F881860320900B45992 /* EZHTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZHTTPConnection.m; sourceTree = "<group>"; };
+		15E02F891860320900B45992 /* EZHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZHTTPRequest.h; sourceTree = "<group>"; };
+		15E02F8A1860320900B45992 /* EZHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZHTTPRequest.m; sourceTree = "<group>"; };
+		15E02F8B1860320900B45992 /* EZHTTPResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZHTTPResponse.h; sourceTree = "<group>"; };
+		15E02F8C1860320900B45992 /* EZHTTPResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZHTTPResponse.m; sourceTree = "<group>"; };
+		15E02F8D1860320900B45992 /* NSURL+QueryStringParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+QueryStringParse.h"; sourceTree = "<group>"; };
+		15E02F8E1860320900B45992 /* NSURL+QueryStringParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+QueryStringParse.m"; sourceTree = "<group>"; };
+		15E02F941860341600B45992 /* EZHTTPRequestHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZHTTPRequestHeader.h; sourceTree = "<group>"; };
+		15E02F951860347D00B45992 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		15E02F961860347D00B45992 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		15EA15B118FF6C2D006C9696 /* EZObjectParserProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZObjectParserProtocol.h; sourceTree = "<group>"; };
+		15EA15B218FF6D88006C9696 /* EZJSONObjectParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZJSONObjectParser.h; sourceTree = "<group>"; };
+		15EA15B318FF6D88006C9696 /* EZJSONObjectParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZJSONObjectParser.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15E02F4F1860206B00B45992 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E02F581860206B00B45992 /* CoreGraphics.framework in Frameworks */,
+				15E02F5A1860206B00B45992 /* UIKit.framework in Frameworks */,
+				15E02F561860206B00B45992 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15E02F6A1860206B00B45992 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E02F6F1860206B00B45992 /* XCTest.framework in Frameworks */,
+				15E02F711860206B00B45992 /* UIKit.framework in Frameworks */,
+				15E02F701860206B00B45992 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15E02F491860206B00B45992 = {
+			isa = PBXGroup;
+			children = (
+				15E02F5B1860206B00B45992 /* EZHTTPRequest */,
+				15E02F741860206B00B45992 /* EZHTTPRequestTests */,
+				15E02F541860206B00B45992 /* Frameworks */,
+				15E02F531860206B00B45992 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15E02F531860206B00B45992 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15E02F521860206B00B45992 /* EZHTTPRequest.app */,
+				15E02F6D1860206B00B45992 /* EZHTTPRequestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15E02F541860206B00B45992 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15E02F551860206B00B45992 /* Foundation.framework */,
+				15E02F571860206B00B45992 /* CoreGraphics.framework */,
+				15E02F591860206B00B45992 /* UIKit.framework */,
+				15E02F6E1860206B00B45992 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15E02F5B1860206B00B45992 /* EZHTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				15E02F841860320900B45992 /* Classes */,
+				15E02F641860206B00B45992 /* EZAppDelegate.h */,
+				15E02F651860206B00B45992 /* EZAppDelegate.m */,
+				15E02F951860347D00B45992 /* RootViewController.h */,
+				15E02F961860347D00B45992 /* RootViewController.m */,
+				15E02F671860206B00B45992 /* Images.xcassets */,
+				15E02F5C1860206B00B45992 /* Supporting Files */,
+			);
+			path = EZHTTPRequest;
+			sourceTree = "<group>";
+		};
+		15E02F5C1860206B00B45992 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15E02F5D1860206B00B45992 /* EZHTTPRequest-Info.plist */,
+				15E02F5E1860206B00B45992 /* InfoPlist.strings */,
+				15E02F611860206B00B45992 /* main.m */,
+				15E02F631860206B00B45992 /* EZHTTPRequest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15E02F741860206B00B45992 /* EZHTTPRequestTests */ = {
+			isa = PBXGroup;
+			children = (
+				15E02F7A1860206B00B45992 /* EZHTTPRequestTests.m */,
+				15E02F751860206B00B45992 /* Supporting Files */,
+			);
+			path = EZHTTPRequestTests;
+			sourceTree = "<group>";
+		};
+		15E02F751860206B00B45992 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15E02F761860206B00B45992 /* EZHTTPRequestTests-Info.plist */,
+				15E02F771860206B00B45992 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15E02F841860320900B45992 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				15E02F941860341600B45992 /* EZHTTPRequestHeader.h */,
+				15E02F891860320900B45992 /* EZHTTPRequest.h */,
+				15E02F8A1860320900B45992 /* EZHTTPRequest.m */,
+				15E02F8B1860320900B45992 /* EZHTTPResponse.h */,
+				15E02F8C1860320900B45992 /* EZHTTPResponse.m */,
+				15E02F871860320900B45992 /* EZHTTPConnection.h */,
+				15E02F881860320900B45992 /* EZHTTPConnection.m */,
+				15E02F851860320900B45992 /* EZDownloadConnection.h */,
+				15E02F861860320900B45992 /* EZDownloadConnection.m */,
+				1578FA3B18C9DE0B007B6CA1 /* EZImageConnection.h */,
+				1578FA3C18C9DE0B007B6CA1 /* EZImageConnection.m */,
+				1578FA3E18CD4F71007B6CA1 /* EZImageCache.h */,
+				1578FA3F18CD4F71007B6CA1 /* EZImageCache.m */,
+				1578FA4418CD6219007B6CA1 /* EZHTTPRequestUtils.h */,
+				1578FA4518CD6219007B6CA1 /* EZHTTPRequestUtils.m */,
+				15E02F8D1860320900B45992 /* NSURL+QueryStringParse.h */,
+				15E02F8E1860320900B45992 /* NSURL+QueryStringParse.m */,
+				15EA15B118FF6C2D006C9696 /* EZObjectParserProtocol.h */,
+				15EA15B218FF6D88006C9696 /* EZJSONObjectParser.h */,
+				15EA15B318FF6D88006C9696 /* EZJSONObjectParser.m */,
+			);
+			name = Classes;
+			path = EZHTTPRequest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15E02F511860206B00B45992 /* EZHTTPRequest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15E02F7E1860206B00B45992 /* Build configuration list for PBXNativeTarget "EZHTTPRequest" */;
+			buildPhases = (
+				15E02F4E1860206B00B45992 /* Sources */,
+				15E02F4F1860206B00B45992 /* Frameworks */,
+				15E02F501860206B00B45992 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EZHTTPRequest;
+			productName = EZHTTPRequest;
+			productReference = 15E02F521860206B00B45992 /* EZHTTPRequest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15E02F6C1860206B00B45992 /* EZHTTPRequestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15E02F811860206B00B45992 /* Build configuration list for PBXNativeTarget "EZHTTPRequestTests" */;
+			buildPhases = (
+				15E02F691860206B00B45992 /* Sources */,
+				15E02F6A1860206B00B45992 /* Frameworks */,
+				15E02F6B1860206B00B45992 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15E02F731860206B00B45992 /* PBXTargetDependency */,
+			);
+			name = EZHTTPRequestTests;
+			productName = EZHTTPRequestTests;
+			productReference = 15E02F6D1860206B00B45992 /* EZHTTPRequestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15E02F4A1860206B00B45992 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EZ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = simota;
+				TargetAttributes = {
+					15E02F6C1860206B00B45992 = {
+						TestTargetID = 15E02F511860206B00B45992;
+					};
+				};
+			};
+			buildConfigurationList = 15E02F4D1860206B00B45992 /* Build configuration list for PBXProject "EZHTTPRequest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 15E02F491860206B00B45992;
+			productRefGroup = 15E02F531860206B00B45992 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15E02F511860206B00B45992 /* EZHTTPRequest */,
+				15E02F6C1860206B00B45992 /* EZHTTPRequestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15E02F501860206B00B45992 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E02F601860206B00B45992 /* InfoPlist.strings in Resources */,
+				15E02F681860206B00B45992 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15E02F6B1860206B00B45992 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E02F791860206B00B45992 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15E02F4E1860206B00B45992 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E02F621860206B00B45992 /* main.m in Sources */,
+				15E02F8F1860320900B45992 /* EZDownloadConnection.m in Sources */,
+				1578FA3D18C9DE0B007B6CA1 /* EZImageConnection.m in Sources */,
+				15E02F971860347D00B45992 /* RootViewController.m in Sources */,
+				1578FA4618CD6219007B6CA1 /* EZHTTPRequestUtils.m in Sources */,
+				15E02F921860320900B45992 /* EZHTTPResponse.m in Sources */,
+				15E02F661860206B00B45992 /* EZAppDelegate.m in Sources */,
+				15E02F931860320900B45992 /* NSURL+QueryStringParse.m in Sources */,
+				15EA15B418FF6D88006C9696 /* EZJSONObjectParser.m in Sources */,
+				15E02F911860320900B45992 /* EZHTTPRequest.m in Sources */,
+				15E02F901860320900B45992 /* EZHTTPConnection.m in Sources */,
+				1578FA4018CD4F71007B6CA1 /* EZImageCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15E02F691860206B00B45992 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E02F7B1860206B00B45992 /* EZHTTPRequestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15E02F731860206B00B45992 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15E02F511860206B00B45992 /* EZHTTPRequest */;
+			targetProxy = 15E02F721860206B00B45992 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15E02F5E1860206B00B45992 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15E02F5F1860206B00B45992 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		15E02F771860206B00B45992 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15E02F781860206B00B45992 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15E02F7C1860206B00B45992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		15E02F7D1860206B00B45992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15E02F7F1860206B00B45992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EZHTTPRequest/EZHTTPRequest-Prefix.pch";
+				INFOPLIST_FILE = "EZHTTPRequest/EZHTTPRequest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		15E02F801860206B00B45992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EZHTTPRequest/EZHTTPRequest-Prefix.pch";
+				INFOPLIST_FILE = "EZHTTPRequest/EZHTTPRequest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		15E02F821860206B00B45992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EZHTTPRequest.app/EZHTTPRequest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EZHTTPRequest/EZHTTPRequest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EZHTTPRequestTests/EZHTTPRequestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		15E02F831860206B00B45992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EZHTTPRequest.app/EZHTTPRequest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EZHTTPRequest/EZHTTPRequest-Prefix.pch";
+				INFOPLIST_FILE = "EZHTTPRequestTests/EZHTTPRequestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15E02F4D1860206B00B45992 /* Build configuration list for PBXProject "EZHTTPRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15E02F7C1860206B00B45992 /* Debug */,
+				15E02F7D1860206B00B45992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15E02F7E1860206B00B45992 /* Build configuration list for PBXNativeTarget "EZHTTPRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15E02F7F1860206B00B45992 /* Debug */,
+				15E02F801860206B00B45992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15E02F811860206B00B45992 /* Build configuration list for PBXNativeTarget "EZHTTPRequestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15E02F821860206B00B45992 /* Debug */,
+				15E02F831860206B00B45992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15E02F4A1860206B00B45992 /* Project object */;
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FEA8F023-D394-4335-82C7-A050E8B13476</string>
+	<key>IDESourceControlProjectName</key>
+	<string>EZHTTPRequest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C0128497-8FAE-4B5F-B339-F7AE741FAB6E</key>
+		<string>ssh://github.clouds-inc.jp/imota/EZHTTPRequest.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>EZHTTPRequest.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C0128497-8FAE-4B5F-B339-F7AE741FAB6E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.clouds-inc.jp/imota/EZHTTPRequest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C0128497-8FAE-4B5F-B339-F7AE741FAB6E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C0128497-8FAE-4B5F-B339-F7AE741FAB6E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EZHTTPRequest</string>
+		</dict>
+	</array>
+</dict>
+</plist>
